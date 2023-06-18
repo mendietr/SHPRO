@@ -8,6 +8,12 @@ router.get('/', (req, res, next) =>
         res.render('home');
 });
 
+router.get('/new', (req, res, next) =>
+{
+        res.render('db');
+});
+
+
 router.get("/db", async (req, res) =>
 {
     const data = await Cod.find();
