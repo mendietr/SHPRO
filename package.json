@@ -1,7 +1,7 @@
 {
   "name": "rapqp",
   "version": "1.0.0",
-  "description": "Planeación avanzada de la Calidad del producto",
+  "description": "Base de datos de codigo",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
